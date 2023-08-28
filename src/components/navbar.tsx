@@ -1,3 +1,4 @@
+import {AiOutlineMail, AiOutlineLinkedin, AiOutlineGithub} from "react-icons/ai"
 
 export default function Navbar() {
   return (
@@ -8,13 +9,19 @@ export default function Navbar() {
         </a>
         <ul className="flex space-x-4">
           <li>
-            <a href="#" className="hover:text-gray-300">Home</a>
+            <a href="#" className="hover:text-gray-300">
+              <AiOutlineMail></AiOutlineMail>
+            </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">About</a>
+            <a href="#" className="hover:text-gray-300">
+              <AiOutlineLinkedin></AiOutlineLinkedin>
+            </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">Services</a>
+            <a href="#" className="hover:text-gray-300">
+              <AiOutlineGithub></AiOutlineGithub>
+            </a>
           </li>
           <li>
             <a href="#" className="hover:text-gray-300">Contact</a>

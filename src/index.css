@@ -18,3 +18,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.animation {
+  transition: transform 0.2s ease;
+}
