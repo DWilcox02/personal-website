@@ -4,9 +4,10 @@
   font-weight: 200;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: white;
   background-color: #242424;
   text-align: center;
+  cursor: none;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,4 +22,12 @@
 
 .animation {
   transition: transform 0.2s ease;
+}
+
+.transition-component > div {
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.transition-opacity {
+  transition: opacity 0.5s;
 }

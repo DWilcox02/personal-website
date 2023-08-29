@@ -10,6 +10,7 @@ const ImageGallery: React.FC = () => {
     speed: 2000,
     slidesToShow: 5, // Number of images to show at once
     slidesToScroll: 1,
+    arrows: false
   };
 
   // Array of image URLs
