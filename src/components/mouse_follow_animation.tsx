@@ -24,7 +24,7 @@ export default function MouseFollowAnimation({
   return (
     <>
       <div
-        className={`pointer-events-none animation absolute bg-gray-400 opacity-40 backdrop-blur-sm rounded-full ${
+        className={`z-0 pointer-events-none animation absolute bg-gray-400 opacity-40 backdrop-blur-sm rounded-full ${
           hovering ? "border-2" : "border-none"
         } border-white`}
         style={{
