@@ -12,7 +12,7 @@ interface ImageGalleryProps {
 function ImageGallery({images, settings, maxHeightSetting}: ImageGalleryProps) {
 
   return (
-    <div className="w-full max-w-screen-lg mx-auto">
+    <div className="w-full max-w-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg mx-auto">
       <Slider {...settings}>
         {images.map((imageUrl, index) => (
           <div key={index} className="p-2">

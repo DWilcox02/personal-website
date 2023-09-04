@@ -16,7 +16,7 @@ export default function Navbar({ showCopyMessage, onHover }: NavbarProps) {
   }
 
   return (
-    <nav className="text-white p-4 fixed top-0 w-full border-2 border-white z-10">
+    <nav className="text-white p-4 fixed w-full top-0 border-2 border-white z-10">
       <ul className="flex justify-end ml-auto space-x-8">
         <li>
           <a

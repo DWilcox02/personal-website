@@ -89,7 +89,7 @@ export default function TransitionPages({
   });
 
   return (
-    <div className="">
+    <>
       <Navbar showCopyMessage={showMessageComponent} onHover={onHover}></Navbar>
       <div
         className={`${
@@ -146,6 +146,6 @@ export default function TransitionPages({
         copied="danielgwilcox@gmail.com"
         showMessage={showMessage}
       ></CopiedMessage>
-    </div>
+    </>
   );
 }
