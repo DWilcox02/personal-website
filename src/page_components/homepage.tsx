@@ -1,7 +1,6 @@
 import Title from "../components/title";
 import ImageGallery from "../components/image_gallery";
 import FancyButton from "../components/fancy_button";
-import { useState } from "react";
 
 interface HomePageProps {
   onHover: (isHovering: boolean) => void;
@@ -37,21 +36,12 @@ export default function HomePage({
     arrows: false,
   };
 
-  const [isHover, setIsHover] = useState(false);
-
-  const style = {
-    background: isHover ? "rgba(200, 200, 200, 0.2)" : "",
-  };
-
   return (
     <>
       <div className="flex flex-col items-center justify-center h-screen">
         <Title></Title>
         <div
-          className="hover:shadow-lg transition-all h-20 rounded-lg"
-          style={style}
-          onMouseEnter={() => setIsHover(true)}
-          onMouseLeave={() => setIsHover(false)}
+          className="transition-all h-20 rounded-lg"
         >
           <ImageGallery
             images={images}
