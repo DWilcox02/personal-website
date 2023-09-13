@@ -120,7 +120,7 @@ function CardList({isDesktop}: CardListProps) {
           <ACSCard
             imageSrc="/academics/acs.png"
             title="ACS Cobham"
-            description="During high school I had a great interest in STEM subjects. I received the yearly awards for Computer Science, Chemistry, and MicroEconomics. Other activities I participate in include:"
+            description="During high school I had a great interest in STEM subjects. I received the yearly awards for Computer Science, Chemistry, and MicroEconomics, and graduated with a 4.31 GPA. Other activities I participate in include:"
             bulletPoints={[
               "Math Club, where I was selected to compete at a competition in Vienna",
               "STEM Club President",
